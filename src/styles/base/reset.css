@@ -1,0 +1,7 @@
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html, body { min-height: 100vh; }
+body { overflow-x: hidden; }
+img, picture, svg { max-width: 100%; display: block; }
+input, button, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }

@@ -1,0 +1,17 @@
+.f-stats__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.f-stats__card {
+  background: var(--bg-2);
+  padding: 1.25rem;
+  border-radius: 12px;
+  border: 2px solid var(--brand);
+  text-align: center;
+  transition: transform 0.15s;
+}
+.f-stats__card:hover { transform: translateY(-3px); }
+.f-stats__value { font-size: 1.75rem; font-weight: 900; color: var(--brand); }
+.f-stats__label { font-size: 0.9rem; color: var(--muted); margin-top: 0.35rem; }

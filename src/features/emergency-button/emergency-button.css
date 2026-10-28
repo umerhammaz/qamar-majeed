@@ -1,0 +1,16 @@
+.f-emergency__btn {
+  display: block; margin: 1.5rem auto;
+  background: #e11d48; color: #fff;
+  border: none; border-radius: 999px;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.35rem; font-weight: 900;
+  box-shadow: 0 6px 0 #7f1d1d;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.f-emergency__btn:active { transform: translateY(4px); box-shadow: 0 2px 0 #7f1d1d; }
+.f-emergency__popup {
+  background: var(--bg-2); border: 2px solid var(--brand);
+  padding: 1.25rem; border-radius: 12px;
+  text-align: center; animation: popIn 0.25s ease;
+}
+.f-emergency__popup p { margin: 0 0 1rem; font-weight: 600; }

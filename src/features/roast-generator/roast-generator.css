@@ -1,0 +1,12 @@
+.f-roast__output {
+  background: var(--brand); color: #000;
+  padding: 1.25rem; border-radius: 12px;
+  font-weight: 800; font-size: 1.1rem;
+  margin: 1rem 0; text-align: center;
+}
+.f-roast__pop { animation: roastPop 0.35s ease; }
+@keyframes roastPop {
+  0% { transform: scale(0.9) rotate(-1deg); }
+  60% { transform: scale(1.03) rotate(1deg); }
+  100% { transform: scale(1) rotate(0); }
+}

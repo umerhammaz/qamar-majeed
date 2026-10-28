@@ -1,0 +1,12 @@
+.f-quiz__form { margin: 1rem 0; }
+.f-quiz__q {
+  border: 2px solid var(--brand);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+.f-quiz__q legend { font-weight: 800; padding: 0 0.5rem; }
+.f-quiz__q label { display: block; padding: 0.35rem 0; cursor: pointer; }
+.f-quiz__result {
+  margin-top: 1rem; font-weight: 700; color: var(--brand); font-size: 1.1rem;
+}

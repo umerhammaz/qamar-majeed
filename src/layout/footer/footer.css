@@ -1,0 +1,8 @@
+.f-footer__inner {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.f-footer__inner strong { color: var(--brand); }
+.f-footer__small { opacity: 0.75; font-size: 0.85rem; margin-top: 0.35rem; }

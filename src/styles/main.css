@@ -1,0 +1,12 @@
+@import url("./base/reset.css");
+@import url("./base/tokens.css");
+@import url("./base/typography.css");
+@import url("./base/utilities.css");
+@import url("./animations.css");
+
+#app > .feature {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  scroll-margin-top: 80px;
+}

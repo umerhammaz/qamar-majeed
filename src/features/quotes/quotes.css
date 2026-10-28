@@ -1,0 +1,9 @@
+.f-quotes__box {
+  background: var(--bg-2);
+  border-left: 6px solid var(--brand);
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-style: italic;
+  font-size: 1.15rem;
+  margin: 1rem 0;
+}
